@@ -9,7 +9,6 @@ image::images/nerdnite.001.png[]
 image::images/nerdnite.002.png[]
 
 * Let's talk about the internet. 
-* Hot topics for this very hot day.
 * So like, there's a lot of stuff to read on the internet.
 * People publish all kinds of things.
 * I read lots of articles, blogs, tweets, etc.
