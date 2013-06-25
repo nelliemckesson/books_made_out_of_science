@@ -1,0 +1,198 @@
+== Books Made Out of Science!
+
+image::images/nerdnite.001.png[]
+
+Nellie McKesson
+O'Reilly Media, Inc.
+Nerd Nite Boston, 6/24/2013
+
+image::images/nerdnite.002.png[]
+Let's talk about the internet. 
+Hot topics for this very hot day.
+So like, there's a lot of stuff to read on the internet.
+People publish all kinds of things.
+I read lots of articles, blogs, tweets, etc.
+Actually, I shouldn't say just reading - people consume a lot of media on the internet.
+I watch TV on the internet, I listen to music on the internet.
+It's this hugely powerful, flexible technology that has really taken over the media world.
+It's especially great for learning about stuff.
+You can create a much more integrated media experience on the web--embed video, audio, interactive examples.
+Seems like a no brainer for educational publishing.
+
+image::images/nerdnite.003.png[]
+We're starting to see more experiments in this area: Tech publisher Apress recently published a book made for the web first, with all kinds of integrated media in it 
+Books like this are the next step for publishing: Cloud-based, with lots of integrated media and learning tools.
+I want to talk about why it's been so hard to get here, 
+Because the internet has been around for a long time
+and we’re only just starting to see publishers taking advantage of everything it has to offer.
+So why did it take so long?
+You wouldn't think publishing to the Web would be that much of a jump, actually.
+
+image::images/nerdnite.004.png[]
+Publishers already publish ebook versions of their books. 
+And the technology behind ebook files is actually the same technology behind the web.
+ebook files use a markup language called HTML, and a styling language called CSS.
+These are the exact same base languages behind almost every website.
+
+image::images/nerdnite.005.png[]
+I'm going to digress just for a minute to give a very very quick overview of how HTML and CSS work.
+HTML is a Markup Language. You use it to tag different parts of content, to describe how those pieces work together. 
+
+image::images/nerdnite.006.png[]
+Here's an example of some book content tagged with HTML.
+You use HTML to say which bit is the book title, which bit is the chapter title, which bits are plain text paragraphs, and so on.
+Then when a web browser--or whatever is trying to render the content--sees this tagged content, it'll know what to do with it.
+
+image::images/nerdnite.007.png[]
+CSS is a language for styling HTML
+You can use CSS to give web browsers extra instructions.
+You can use it for simple stuff like making text show up in a different color, or underlined, or with extra space above and below it (SLIDE: CSS of this stuff)
+But it also does much more powerful stuff like say exactly where on the page an element should show up, or if should be displayed at all, or how it should interact with the elements around it.
+
+image::images/nerdnite.008.png[]
+So HTML is the "What", and CSS is the "How". 
+If only it stayed that simple for ebooks. But naturally, we've got to add some qualifiers here.
+
+image::images/nerdnite.009.png[]
+First off, there are lots of different devices that read ebook files 
+And each of those devices supports different features and design elements
+There actually is an accepted standard for ebook files
+it’s called EPUB, and it defines rules about what kinds of styling and markup should and should not be allowed inside ebook files
+
+image::images/nerdnite.010.png[]
+But the device makers, like Amazon and Barnes and Noble, have their own ideas about what should and shouldn't be allowed in ebooks
+So they choose what they want to support from the EPUB and HTML standards, and then they add a bunch of stuff on top, based on how they think book navigation should work, or the kinds of things they think an ebook page should always include. 
+
+image::images/nerdnite.011.png[]
+Which means that in addition to losing control over major portions of the ebook page design, 
+publishers also either need to make multiple versions of the ebook files, tailored to different devices
+Or they need to make one file that will look decent on all the devices, which generally means making a lot of sacrifices in terms of design
+And this is a big reason why so many ebooks today are so ugly
+Because publishers are being crippled by the limitations of these devices
+It's like the browser landscape of 10 years ago
+Where all the browsers supported different features, and web developers had to jump through hoops to get their sites working in every browser
+
+image::images/nerdnite.012.png[]
+But if we get rid of that ebook packaging, stop worrying about these devices and just going straight to the web, we actually solve many of these design and user experience problems
+Web standards are far more advanced and well-supported today than ebook standards, so there's a lot more freedom over design and presentation of your content.
+
+image::images/nerdnite.013.png[]
+You can build in any features you want, and you can design the entire page, not just the center portion. 
+You can also add all kinds of other media--like videos or audio or cool javascript stuff--basically, anything you can put on the internet, you can put in a web-based book.
+This is really exciting for educational and reference publishing companies.
+
+image::images/nerdnite.014.png[]
+When we're publishing a book about learning javascript, for example, we can embed a sandbox for people to actually try out the javascript code, instead of just printing a big stretch of code in the text and expecting them to get out their computers and try it out. 
+This is simply not possible with the ebooks we have now, again because of those limitations added by the ebook reading devices.
+These devices don't even support standard design features, so why in the world would they support embeddable javascript or video?
+
+So just chucking ebooks as a file format and moving straight to cloud reading seems like the obvious answer, right?
+Sadly no, we can't just get rid of ebooks, at least not yet.
+At this point, people expect to be able to buy a book and put it on their Kindle.
+And then there’s the whole issue of offline reading--if books are only on the cloud, how can we read on an airplane? or in really rural areas?
+
+image::images/nerdnite.015.png[]
+So we still need to publish those ugly old broken ebook files.
+And to complicate things even further, people still love print books, too, and want to read in that format.
+Everyone likes to make a big fuss over how print is dying etc, but that's really not true.
+Print is still awesome, it's got a user experience that's been refined over hundreds of years.
+And until the user experience of digital publishing gets just as good, and fits just as naturally with human behavior, print's gonna stick around.
+
+image::images/nerdnite.016.png[]
+so we've got all these formats with varying levels of support for integrated media and styling. 
+Print of course has the worst support for embedded media, because how do you embed a video on a piece of paper; and web of course has the best, and other ebooks have varying levels in between. 
+How can publishers create books in all these different formats, and optimize their content to best suit each format, without going completely bankrupt? 
+Because yes, while we are already publishing our books in multiple formats, we aren’t getting multiple times the profits. 
+We’re getting the same amount of money, it’s just coming from a few different places.
+This means that we have the same budget that publishers had back when all they needed to make was one format--print--but we now have to make several. 
+
+image::images/nerdnite.017.png[]
+Let me step back for a minute here and give you a little background into how book production generally works right now:
+Most publishers actually still start with the print format when they're making a book. 
+They focus their book production on the printed version, put tons of effort into making each page look really nice,
+and THEN they think about making it into a digital book.
+
+image::images/nerdnite.018.png[]
+They take these laid-out print pages, and convert them into the ebook
+In the majority of cases, this is not a simple push-button operation.
+there's a lot of stuff in page layout that just doesn't translate to ebooks, so you have to do lots of extra work to convert the book from the paged version into the ebook version
+And you end up essentially forking your source 
+
+image::images/nerdnite.019.png[]
+It's like the difference between the original R Kelly song Ignition, and the Remix version
+Yes, they started out from the same idea
+
+image::images/nerdnite.020.png[]
+but they're really two very different things 
+with different structures and different content
+If R Kelly ever wanted to add a verse to the song, he'd have to do it twice: once for each version
+You have two distinct files with their own distinct production cycles that you need to maintain
+
+image::images/nerdnite.021.png[]
+Now imagine adding the web as another endpoint, with extra embedded media or cool learning tools that you can't put in the other formats. 
+You've forked your source again.
+It's kind of a mess
+What we need is one source file, that can easily transform into all the formats you need to publish to.
+This is a pretty well known concept in publishing, and is kind of the dream for all publishers
+
+image::images/nerdnite.022.png[]
+It’s called Single source publishing
+Some publishers have found ways to do this in the past--O'Reilly is one of them
+But it's always been pretty tricky and the technical barriers have been really high
+Basically it involves some not-very-well-known code and markup languages, and lots of complex scripts and things to transform those markup languages into other markup languages or into a PDF
+I’m purposefully glossing over this a bit because I could spend 10 minutes talking just about this old way of doing single source publishing, but just trust me that it was very hard and not very future-proof.
+
+image::images/nerdnite.023.png[]
+Now enter CSS.
+CSS, like HTML and other web languages, is a constantly evolving standard 
+there are groups of people who maintain it as a language, and are always thinking about how CSS needs to be improved to stay relevant.
+Recently they added a new set of features to the CSS standard, and these features define styles for making paged media using HTML and CSS.
+
+image::images/nerdnite.024.png[]
+They called this the paged media module
+This new CSS paged media module gives you the power to lay out paged content using CSS. 
+Paged content like print books.
+
+image::images/nerdnite.025.png[]
+It comes with the default understanding that the content is not going to flow in one long scroll, like most websites,
+but instead is going to be split up into pages
+So it adds extra functionality for defining the size of a printed page, adding running headers and footers, page numbering, all the stuff you'd expect to find in a printed book. 
+Now, we already talked about how ebooks and websites are both built using HTML and CSS.
+
+image::images/nerdnite.026.png[]
+But this new CSS module mean that you can also make print books out of HTML and CSS. 
+Every book format can be made out of HTML and CSS.
+This makes publisher's lives 1000 times easier.
+We don't need to do all those conversions anymore--we can have all our content in that one HTML file, that pretty much stays the same. 
+
+image::images/nerdnite.027.png[]
+The content doesn't change, just the way it is presented.
+We pair the HTML content file with CSS and package it to make an ebook, 
+or run it through PDF processing software to make the print version, 
+or just put it right on the web as a website. 
+And we can use the CSS to say things like, "only show video in the web version, and in the print and ebook just show this link instead"
+
+image::images/nerdnite.028.png[]
+I call this responsive publishing, where the content shifts to match the output destination. 
+This is a total game changer for publishing.
+It opens the door for creating awesome, cloud-based interactive reading experiences, while still providing people with the other book formats they've come to expect.
+No more jumping through hoops, no more messy conversions, no more breaking the bank to make these multiple versions of a book.
+And its the convergence of publishing with the web that makes this possible.
+
+image::images/nerdnite.029.png[]
+Publishers and publishing startups are finally starting to recognize the power of web technology, 
+They’re realizing how silly it is to keep their content segregated from the place where a lot of people do most of their reading
+And publishers are seeing that they have much more freedom to create a really awesome reading experience by publishing to the web
+So they’re building tools around the web
+
+image::images/nerdnite.030.png[]
+And it’s not just for publishers.
+Self publishing is huge right now.
+There's already a Wordpress for making books, that let's you write in the cloud and publish to multiple book formats, 
+and more and more projects like this are under development.
+Of course O'Reilly's making one too 
+and very soon--and by very soon I mean months, not years--we're going to see the day when anyone can write a book in the cloud, based on HTML, and publish it to a website, or to a printed book or an ebook.
+
+image::images/nerdnite.031.png[]
+It’s democratization of publishing using tools that are already very popular
+And fostering the spread of knowledge and innovation
