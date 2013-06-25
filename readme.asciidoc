@@ -9,7 +9,7 @@ image::images/nerdnite.001.png[]
 image::images/nerdnite.002.png[]
 
 * Let's talk about the internet. 
-* So like, there's a lot of stuff to read on the internet.
+* there's a lot of stuff to read on the internet.
 * People publish all kinds of things.
 * I read lots of articles, blogs, tweets, etc.
 * Actually, I shouldn't say just reading - people consume a lot of media on the internet.
